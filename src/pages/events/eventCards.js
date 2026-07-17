@@ -6,9 +6,9 @@
 
 //   const data = [
 //     { imageUrl: '/image/UG-Orientation.png', buttonText: "UG Orientation", date: new Date("2024-03-12").toJSON().slice(0, 10), targetUrl: '/ug-orientation' },
-//     { imageUrl: '/image/pg.jpeg', buttonText: "PG Orientation", date: new Date("2024-03-11").toJSON().slice(0, 10), targetUrl: '/pg-orientation' },
-//     { imageUrl: '/image/FreshersParty.JPG', buttonText: "Fresher's Party", date: new Date("2024-03-12").toJSON().slice(0, 10), targetUrl: '/ug-orientation' },
-//     { imageUrl: '/image/Industry-visit.jpg', buttonText: "Industry Visit", date: new Date("2026-03-25").toJSON().slice(0, 10), targetUrl: '/industry-visit' },
+//     {sParty.JPG', buttonText: "Fresher's Party", date: new Date("2024-03-12").toJSON().slice(0, 10), targetUrl: '/ug-orientation' },
+//     { imageUrl: '/image/Industr imageUrl: '/image/pg.jpeg', buttonText: "PG Orientation", date: new Date("2024-03-11").toJSON().slice(0, 10), targetUrl: '/pg-orientation' },
+//     { imageUrl: '/image/Freshery-visit.jpg', buttonText: "Industry Visit", date: new Date("2026-03-25").toJSON().slice(0, 10), targetUrl: '/industry-visit' },
 //     { imageUrl: '/image/Tryst.jpeg', buttonText: "Tryst", date: new Date("2026-03-22").toJSON().slice(0, 10), targetUrl: '/time-capsule' },
 //     { imageUrl: '/image/Department-trip.jpg', buttonText: "Departmental Trip", date: new Date("2026-03-23").toJSON().slice(0, 10), targetUrl: '/departmental-trip' },
 //     { imageUrl: '/image/Seminar.jpeg', buttonText: "Research Seminar", date: new Date("2026-03-01").toJSON().slice(0, 10), targetUrl: '/cad-competition' },
