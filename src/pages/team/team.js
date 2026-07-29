@@ -14,7 +14,7 @@ function Team() {
                     <p className="fw-bold d-inline-flex " style={{borderBottom:"1px solid",borderColor:"#7BD0FB"}}>Overall Coordinators</p>
                 </div>
                 <div className="d-flex w-100 flex-column flex-md-row gap-4 flex-wrap  align-items-center justify-content-evenly p-4">
-                    <Block name={'Prof. P.M.V Subbarao'} por={"Faculty Coordinator"}  img={'/image/profAnuragGoyal.jpg'}/>
+                    <Block name={'Prof. P.M.V Subbarao'} por={"Faculty Coordinator"}  img={'/image/profSubbarao.jpg'}/>
                     <Block name={"Avni Goklani "} por={"Overall Coordinator"} img={'/image/Avni Goklani_Overall Coordinator .jpg'}/>
                 </div>
                 <br></br>
