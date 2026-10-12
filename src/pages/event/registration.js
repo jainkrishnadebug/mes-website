@@ -27,7 +27,7 @@ export default function Registration(){
             </div>
             </div>
             <div className="d-flex w-50 justify-content-center position-relative ">
-                <img src="/image/HOD.jpeg"></img>
+                <img src="/image/HOD.jpeg" alt="Head of Department"></img>
             </div>
         </div>
     )

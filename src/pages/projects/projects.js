@@ -1,7 +1,7 @@
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 import ProjectsPage from "./hero.js"
-import { Col, Container, Row, Image } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 export default function About() {
   return (

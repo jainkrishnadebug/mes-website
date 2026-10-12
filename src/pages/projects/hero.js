@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Card } from '@mui/material';
 import { motion } from 'framer-motion';
-import Navbar from "../../components/navbar";
-import Footer from "../../components/footer";
 import './style.css';
 
 const ProjectsPage = () => {
-  const currentDate = new Date().toISOString().slice(0, 10);
-
   const projects = [
     {
       title: "Thermodynamic and heat transfer simulations of thermochemical heat pumps",
@@ -181,16 +177,7 @@ const ProjectsPage = () => {
     }
   ];
 
-  const [type, setType] = useState("all");
-
-  let filteredProjects = [];
-  if (type === "past") {
-    filteredProjects = projects.filter(project => project.endDate < currentDate);
-  } else if (type === "ongoing") {
-    filteredProjects = projects.filter(project => project.startDate <= currentDate && project.endDate >= currentDate);
-  } else {
-    filteredProjects = projects; // Show all projects regardless of dates
-  }
+  let filteredProjects = projects;
 
   return (
     <>
@@ -198,15 +185,6 @@ const ProjectsPage = () => {
         <header className="projects-header">
           <h1 className="projects-title">Mechanical Projects</h1>
           <div className="projects-buttons">
-            {/* <Button variant="outlined" className="project-button" onClick={() => setType("all")}>
-              All Projects
-            </Button> */}
-            {/* <Button variant="outlined" className="project-button" onClick={() => setType("ongoing")}>
-              Ongoing Projects
-            </Button>
-            <Button variant="outlined" className="project-button" onClick={() => setType("past")}>
-              Completed Projects
-            </Button> */}
           </div>
         </header>
 
