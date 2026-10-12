@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 // Styled Paper component
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
-  textAlign: 'center',
   color: 'white',
   height: 'auto', // Allow the container to adjust to its content
   width: '656px',

@@ -1,6 +1,5 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import './App.css';
-import Home from "./pages/home/home";
 import Events from "./pages/events/events";
 import Event from "./pages/event/event";
 import Team from "./pages/team/team";
@@ -23,7 +22,6 @@ function App() {
       <Route path="/team" element={<Team/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/projects" element={<Project/>}/>
-      <Route path="/home_new" element={<Homenew/>}/>
     </Routes>
     </BrowserRouter>
 
